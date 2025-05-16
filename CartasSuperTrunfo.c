@@ -24,22 +24,22 @@ int main() {
     scanf("%c", cidade1 );
 
     printf("digite o numero de Populacao1: \n " );
-    scanf("%f", &Populacao1 );
+    scanf("%d", &Populacao1 );
 
     printf("digite a area1: \n ");
-    scanf("%2f", &area1);
+    scanf("%.2f", &area1);
 
     printf("digite pib1: \n ");
-    scanf("%2f", &pib1);
+    scanf("%.2f", &pib1);
 
     printf("digite numeroturisticos1: \n ");
     scanf("%d", &numeroturisticos1);
 
     printf("digite valor populacao1/area1: \n ");
-    scanf("%2f", desidadepopulacao1 );
+    scanf("%.2f", desidadepopulacao1 );
 
     printf("digite valor pib1/populacao1: \n ");
-    scanf("%2f",pibpercapita1 );
+    scanf("%.2f",pibpercapita1 );
     
 
     char estado2;
@@ -62,22 +62,22 @@ int main() {
     scanf("%c",&cidade2 );
 
     printf("digite o numero de Populacao2: \n " );
-    scanf(" %2f",&Populacao2);
+    scanf("%.2f",&Populacao2);
 
     printf("digite a area2: \n ");
-    scanf("%2f", &area2);
+    scanf("%.2f", &area2);
 
     printf("digite pib2: \n ");
-    scanf("%2f", &pib2);
+    scanf("%.2f", &pib2);
 
     printf("digite numeroturisticos2: \n ");
     scanf("%d", &numeroturisticos2);
 
     printf("digite valor populacao2/area2: \n ");
-    scanf("%2f",desitadepopulacao2 );
+    scanf("%.2f",desitadepopulacao2 );
 
     printf("digite valor pib2/populacao2: \n ");
-    scanf("%2f",pibpercapita2 );
+    scanf("%.2f",pibpercapita2 );
 
     return 0;
 }
